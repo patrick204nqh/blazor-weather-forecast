@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "T2b3D2ISFhivqjEmjlGtrWQICVi+7vgIQTiEVUR7bZhHqKxxyjeUR3IApeJyY8GmUCF+WYcd2/EdAogdGgTH7A==",
+  "dgSpecHash": "jthpvPNNABA8Kgmc55nd1VMKa3uHcPEPSDxI2Bf90T7i91o9s+/SWkgu9iisR9dFUPlKBPei0Mm9jsb0uKPxKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\source\\repos\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\wrap-app\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\system.net.http.json\\3.2.1\\system.net.http.json.3.2.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }

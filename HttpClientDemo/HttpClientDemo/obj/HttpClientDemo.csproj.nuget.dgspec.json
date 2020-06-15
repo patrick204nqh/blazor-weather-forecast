@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\wrap-app\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj": {
+    "C:\\Users\\Dell\\Desktop\\wrap-app\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\wrap-app\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj",
         "projectName": "HttpClientDemo",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\wrap-app\\HttpClientDemo\\HttpClientDemo\\HttpClientDemo.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\HttpClientDemo\\HttpClientDemo\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\wrap-app\\HttpClientDemo\\HttpClientDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
