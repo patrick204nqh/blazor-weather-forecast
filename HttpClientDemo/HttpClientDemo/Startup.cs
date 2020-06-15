@@ -32,7 +32,7 @@ namespace HttpClientDemo
             services.AddHttpClient();
             services.AddHttpClient("meta", c =>
             {
-                c.BaseAddress = new Uri("https://www.metaweather.com/api/");
+                c.BaseAddress = new Uri(Configuration.GetValue<string>("MetaAPI"));
             });
         }
 
