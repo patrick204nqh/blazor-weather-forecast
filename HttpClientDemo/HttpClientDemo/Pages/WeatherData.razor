@@ -43,7 +43,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        var request = new HttpRequestMessage(HttpMethod.Get,
+        @*var request = new HttpRequestMessage(HttpMethod.Get,
             "https://www.metaweather.com/api/location/2471217/");
 
         var client = _clientFactory.CreateClient();
@@ -58,6 +58,17 @@ else
         else
         {
             errorString = $"There was an error getting our forecast: { response.ReasonPhrase }";
+        }*@
+
+        var client = _clientFactory.CreateClient();
+
+        try
+        {
+            forecast = await client.GetFromJsonAsync<WeatherForecastModel>("https://www.metaweather.com/api/location/2471217/");
+        }
+        catch(Exception ex)
+        {
+            errorString = $"There was an error getting our forecast: { ex.Message }";
         }
     }
 }
