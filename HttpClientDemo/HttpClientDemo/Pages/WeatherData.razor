@@ -60,11 +60,11 @@ else
             errorString = $"There was an error getting our forecast: { response.ReasonPhrase }";
         }*@
 
-        var client = _clientFactory.CreateClient();
+        var client = _clientFactory.CreateClient("meta");
 
         try
         {
-            forecast = await client.GetFromJsonAsync<WeatherForecastModel>("https://www.metaweather.com/api/location/2471217/");
+            forecast = await client.GetFromJsonAsync<WeatherForecastModel>("location/2471217/");
         }
         catch(Exception ex)
         {
